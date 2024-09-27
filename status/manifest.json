@@ -1,0 +1,26 @@
+{
+	"name": "Account Status Unbanned Account / Characters",
+	"version": "1.0.0",
+	"date": "2024-09-27",
+	"description": "You can Account Status",
+	"author": {
+		"name": "Shayan",
+		"website": "http://www.FusionCms.ir"
+	},
+	
+	"permissions": {
+		"view": {"default" : true, "description": "View the Account Status page" }
+	},
+
+	"roles": {
+		"view": {
+			"description": "View the Account Status",
+			
+			"permissions": {
+				"view": true
+			}
+		}
+	},
+
+	"enabled": true
+}
